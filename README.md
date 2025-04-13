@@ -1,5 +1,5 @@
 
-# Question Paper Analysis and Generator
+# NEET Question Paper Analysis and Generator
 
 ## Introduction
 This project focuses on both generating and evaluating multiple-choice questions (MCQs) in the context of NEET (National Eligibility cum Entrance Test) preparation. In addition to generation, the system also supports evaluating existing NEET-style questions by retrieving relevant textbook content and assessing their difficulty or alignment. This dual approach allows the system to assist in both creating new questions and validating the quality of existing ones, making it useful for educators, students, and content developers.
