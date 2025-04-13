@@ -9,7 +9,7 @@ This project focuses on both generating and evaluating multiple-choice questions
 
 Please watch this 7 minutes video for a better understanding
 
-https://youtu.be/Enh8vcAN3gg
+https://youtu.be/mltKiIuFqhI
 
 
 ## Installation and Deployment
@@ -45,7 +45,7 @@ Ensure you have Python 3.12 installed
 Install the requirements file
 
 ```bash
-  pip install -r requirements
+  pip install -r requirements.txt
 ```
 
 ## Choosing the Notebook
@@ -61,7 +61,7 @@ IMLProject.ipynb contains the main Gemini 2.0 flash model, its testing on variou
 The last few cells of this notebook contains the question generation of the subject "Machine Learning" as part of the feedback receieved in the mid-review of the project as well as NEET Questions Generation.
 
 Evaluation_loglike.ipynb is the notebook which contains GPT-2, a publicly available transformer which we have used to evaluate generated questions as Gemini does not support open tokens evalutaion as per its documentation. The folder gpt2-physics contains the trained GPT-2 model. The notebook has evaluation part which also of both Gemini and GPT-2,
-as said earlier, we cannot access evaluation of Gemini as written in its API documentation so what we have done is generate the question from Gemini and then evaluate its generation with the help of GPT-2' Log-Liklihood.
+as said earlier, we cannot access evaluation of Gemini as written in its API documentation so what we have done is generate the question from Gemini and then evaluate its generation with the help of GPT-2' Log-Liklihood. The GPT-2 was only trained on physics questions as there was time constraint as well as it took almost 5 hours just to train on 500 samples.
 
 
 ## Deployment
