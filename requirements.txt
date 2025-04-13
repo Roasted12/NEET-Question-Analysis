@@ -1,0 +1,15 @@
+pdfplumber
+tensorflow
+tensorflow-hub
+tensorflow-text
+scikit-learn
+google-generativeai
+sentence_transformer
+torch
+transformer
+os
+re
+numpy
+pandas
+google
+time
